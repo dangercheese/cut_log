@@ -15,3 +15,4 @@ cut_log
 * 3、建议清空掉现有需要切割的Log，因为第一次运行脚本会比较占用资源。
 * 4、把cut_log.py 放到crontab 里面定时执行，因crontab 里面需要绝对路径。
 *    所以需要修改 cut_log.py 里面  dom = minidom.parse('./log_path.xml') 的 log_path.xml 为绝对路径。
+*   /opt/log/oc4j.err&3
